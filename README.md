@@ -39,3 +39,20 @@ This library was created using org.json.
     String jsonString = obj.getString("key");
     JSONObject object = obj.getJSONObject("key");
     ```
+
+## Maven Setup
+```xml
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+```xml
+	<dependency>
+	    <groupId>com.github.najoan125</groupId>
+	    <artifactId>JsonUtility</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
+```

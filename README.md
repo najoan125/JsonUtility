@@ -55,6 +55,6 @@ This library was created using org.json.
 	<dependency>
 	    <groupId>com.github.najoan125</groupId>
 	    <artifactId>JsonUtility</artifactId>
-	    <version>-SNAPSHOT</version>
+	    <version>master-SNAPSHOT</version>
 	</dependency>
 ```

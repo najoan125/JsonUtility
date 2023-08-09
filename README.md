@@ -1,4 +1,6 @@
 # JsonUtility
+[![](https://jitpack.io/v/najoan125/JsonUtility.svg)](https://jitpack.io/#najoan125/JsonUtility)
+<br>
 This is the Json library that read and write conveniently<br>
 This library was created using org.json.
 
@@ -53,6 +55,6 @@ This library was created using org.json.
 	<dependency>
 	    <groupId>com.github.najoan125</groupId>
 	    <artifactId>JsonUtility</artifactId>
-	    <version>1.0.0</version>
+	    <version>-SNAPSHOT</version>
 	</dependency>
 ```

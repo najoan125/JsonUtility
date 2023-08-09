@@ -25,6 +25,7 @@ This library was created using org.json.
     ```java
     String url = "https://www...";
     JSONObject obj = JsonReader.readFromURL(url, 2);
+    
     JSONArray array = obj.getJSONArray("array");
     int jsonInt = obj.getInt("number");
     String jsonString = obj.getString("key");

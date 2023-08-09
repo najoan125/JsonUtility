@@ -25,7 +25,7 @@ This library was created using org.json.
     + it can throws **IOException, JsonEmptyException**
   + *readFromURL(String url, int fromLine)*
     + Read from the line fromLine to the last line in the URL and convert it to json.
-    + Note: line starts at 1
+    + Note: line starts at 1. NOT 0!
   + *readFromFile(String path)*
     + Read from File.
     + it can throw **IOException**

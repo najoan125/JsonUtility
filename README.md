@@ -58,3 +58,6 @@ This library was created using org.json.
 	    <version>VERSION</version>
 	</dependency>
 ```
+
+## Editing
+This source is licensed under the **MIT license**. Modify or distribute as you like, **but be sure to cite the source!**

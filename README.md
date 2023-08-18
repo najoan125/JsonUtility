@@ -27,10 +27,18 @@ This library was created using org.json.
     + it can throws **IOException, JsonEmptyException**
   + *readFromURL(String url, int fromLine)*
     + Read from the line fromLine to the last line in the URL and convert it to json.
-    + Note: line starts at 1. NOT 0!
+    + Note: line starts at 1. NOT 0!<br><br>
   + *readFromFile(String path)*
     + Read from File.
     + it can throw **IOException**
+  + *readFromFile(String path, int fromLine)*
+    + Read from the line fromLine to the last line in the file and convert it to json.
+    + Note: line starts at 1. NOT 0!<br><br>
+  + *readFromInputStream(InputStream inputStream)*
+    + Read from InputStream
+  + *readFromInputStream(InputStream inputStream, int fromLine)*
+    + Read from the line fromLine to the last line in the inputStream and convert it to json.
+    + Note: line starts at 1. NOT 0!
     ### Example
     ```java
     String url = "https://www...";
@@ -40,6 +48,8 @@ This library was created using org.json.
     int jsonInt = obj.getInt("number");
     String jsonString = obj.getString("key");
     JSONObject object = obj.getJSONObject("key");
+
+    JSONObject obj2 = JsonReader.readFromInputStream(Main.class.getResourceAsStream("file"));
     ```
 
 ## Maven Setup
